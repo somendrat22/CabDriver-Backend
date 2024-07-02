@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Customer {
+public class Customer implements AppUser{
     // @Entity Annotation will convert Customer Model in our application code to
     // Customer Table in our Database
     @Id

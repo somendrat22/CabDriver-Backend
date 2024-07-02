@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @Setter
 @ToString
-public class Driver {
+public class Driver implements AppUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
